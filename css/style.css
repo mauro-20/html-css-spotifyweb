@@ -7,7 +7,10 @@
 
 /* common */
 body{
-  background-color: aquamarine;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #717171;
+  background-color: #141922;
 }
 
 /* main */
@@ -19,14 +22,62 @@ main{
 .sidebar{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 230px;
   height: 100%;
-  background-color: blueviolet;
+  padding: 20px;
+  background-color: #000000;
+  overflow: hidden;
 }
 
-.sidebar ul {
+.sidebar-logo img{
+  width: 130px;
+  margin-bottom: 25px;
+}
+
+.sidebar li{
+  list-style: none;
+  height: 35px;
+  padding: 5px 0;
+}
+
+.icon{
+  width: 21px;
+  vertical-align: middle;
+}
+
+.sidebar li.active{
+  color: #ffffff;
+  padding-left: 17px;
+  margin-left: -20px;
+  border-left: 3px solid #adff2f;
+}
+
+.sidebar h2{
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.sidebar-create-playlist{
+  margin-bottom: 15px;
+}
+
+.sidebar-create-playlist-btn{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #000000;
+  background-color: #717171;
+}
+
+.sidebar ul.playlist {
   overflow-y: auto;
-  background-color: cornflowerblue;
 }
 
 .main-content{

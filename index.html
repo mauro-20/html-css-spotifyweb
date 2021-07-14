@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- /Google Font -->
   <link rel="stylesheet" href="css/style.css">
   <title>Spotify-web</title>
 </head>
@@ -11,13 +16,29 @@
   <main>
     <!-- sidebar -->
     <nav class="sidebar">
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis, reprehenderit culpa esse eaque quos expedita inventore, id placeat architecto, neque dolorem qui! Ad, fugit soluta nulla perferendis quidem voluptatem.
+      <div class="sidebar-logo">
+        <img src="./img/logo.svg">
       </div>
-      <div class="playlist">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, accusamus consectetur dolores quam molestiae ullam repellendus quisquam sequi. Esse, sunt? Id, accusamus? Odio voluptate nesciunt tenetur expedita itaque iure explicabo.
+      <ul class="sidebar-home">
+        <li class="active">
+          <img src="./img/home.svg" class="icon">
+          <span>Home</span>
+        </li>
+        <li>
+          <img src="./img/search.svg" class="icon">
+          <span>Cerca</span>
+        </li>
+        <li>
+          <img src="./img/libreria.svg" class="icon">
+          <span>La tua libreria</span>
+        </li>
+      </ul>
+      <h2>PLAYLIST</h2>
+      <div class="sidebar-create-playlist">
+        <div class="sidebar-create-playlist-btn">+</div>
+        <span>Crea Playlist</span>
       </div>
-      <ul>
+      <ul class="playlist">
         <li>Nome Playlist</li>
         <li>Nome Playlist</li>
         <li>Nome Playlist</li>
@@ -25,9 +46,6 @@
         <li>Nome Playlist</li>
         <li>Nome Playlist</li>
       </ul>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </div>
     </nav>
     <!-- /sidebar -->
     <!-- main content -->
