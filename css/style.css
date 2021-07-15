@@ -19,12 +19,13 @@ main{
   height: calc(100vh - 100px);
 }
 
+/* sidebar */
 .sidebar{
   display: flex;
   flex-direction: column;
   width: 230px;
   height: 100%;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   background-color: #000000;
   overflow: hidden;
 }
@@ -40,7 +41,7 @@ main{
   padding: 5px 0;
 }
 
-.icon{
+.sidebar-home .icon{
   width: 21px;
   vertical-align: middle;
 }
@@ -78,10 +79,48 @@ main{
 
 .sidebar ul.playlist {
   overflow-y: auto;
+  flex-grow: 1;
 }
 
+.sidebar-install-app{
+  padding: 10px 0;
+  border-bottom: 1px solid #6d6d6d;
+  color: #6d6d6d;
+  font-size: 15px;
+
+}
+
+.sidebar-install-app img{
+  width: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.sidebar-profile{
+  padding: 10px 0;
+}
+
+.sidebar-profile-icon{
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #808080;
+  background-image: url(../img/profile.svg);
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.sidebar-profile > span{
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+/* main content */
 .main-content{
-  width: calc(100% - 300px);
+  width: calc(100% - 230px);
   overflow-y: auto;
   background-color: brown;
   font-size: 50px;
@@ -91,7 +130,7 @@ main{
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: coral;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* footer */
