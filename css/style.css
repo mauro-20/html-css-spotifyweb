@@ -145,16 +145,26 @@ main{
   border-radius: 25px;
 }
 
+.main-content-container{
+  padding: 0 20px;
+}
+
 .main-content-nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
+}
+
+.main-content-nav > ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-content-nav li{
   display: inline-block;
   list-style: none;
+  margin: 20px 0;
 }
 
 .main-content-nav a{
