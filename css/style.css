@@ -122,15 +122,27 @@ main{
 .main-content{
   width: calc(100% - 230px);
   overflow-y: auto;
-  background-color: brown;
-  font-size: 50px;
+  background-color: #141922;
+  padding-top: 90px;
 }
 
-.main-content .upgrade{
-  width: 100%;
+.main-content-upgrade{
+  height: 90px;
+  width: calc(100% - 230px);
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+}
+
+.main-content-upgrade-btn a{
+  display: inline-block;
+  padding: 15px 40px;
+  margin: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
 }
 
 /* footer */
