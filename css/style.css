@@ -207,7 +207,7 @@ main{
 }
 
 /* card */
-.card-container{
+.cards-container{
   display: flex;
 }
 
@@ -233,6 +233,9 @@ main{
   font-size: 15px;
 }
 
+.popular-artists .card-img{
+  border-radius: 50%;
+}
 
 /* footer */
 footer{
