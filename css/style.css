@@ -274,3 +274,40 @@ footer{
 .footer-col-left-icons > *:not(:last-child){
   margin-right: 10px;
 }
+
+.footer-col-center{
+  min-width: 40%;
+  margin: 0 30px;
+  color: #ffffff;
+}
+
+.footer-col-center-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.footer-col-center-buttons i.fa-random,
+.footer-col-center-buttons i.fa-step-forward{
+  margin-right: 20px;
+}
+
+.footer-col-center-buttons i.fa-play-circle{
+  font-size: 30px;
+  margin: 0 30px;
+}
+
+.footer-col-center-progress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.footer-col-center-progress-bar{
+  width: 100%;
+  border: 2px solid #717171;
+  border-radius: 2px;
+  margin: 0 20px;
+}
