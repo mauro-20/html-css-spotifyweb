@@ -16,7 +16,7 @@ body{
 /* main */
 main{
   display: flex;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 90px);
 }
 
 /* sidebar */
@@ -239,6 +239,38 @@ main{
 
 /* footer */
 footer{
-  height: 100px;
-  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 90px;
+  background-color: #282828;
+}
+
+.footer-col-left{
+  display: flex;
+  align-items: center;
+}
+
+.footer-col-left img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer-col-left-song{
+  margin-right: 40px;
+  font-weight: 700;
+}
+
+.footer-col-left-song-artist{
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer-col-left-song-title{
+  font-size: 10px;
+}
+
+.footer-col-left-icons > *:not(:last-child){
+  margin-right: 10px;
 }
