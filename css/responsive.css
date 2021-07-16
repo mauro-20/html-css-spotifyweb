@@ -15,7 +15,55 @@
 
   .footer-col-left-icons > i{
     display: block;
-    margin: 0;
+    margin: 5px 0 ;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .sidebar{
+    width: 45px;
+    padding: 5px 10px;
+    width: auto;
+  }
+
+  .xs-display-none{
+    display: none;
+  }
+
+  .sidebar-logo .sidebar-logo-img-small{
+    display: inline-block;
+    width: 21px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar li.active{
+  padding-left: 7px;
+  margin-left: -10px;
+  }
+
+  .sidebar-bottom{
+    margin-top: auto;
+  }
+
+  .sidebar-bottom-install-app{
+    padding-left: 2px;
+    border: none;
+  }
+
+  .sidebar-bottom-install-app img{
+    margin: 0;
+  }
+
+  .sidebar-bottom-profile-icon{
+    margin: 0;
+  }
+
+  .main-content,
+  .main-content-upgrade{
+    width: calc(100% - 45px);
+  }
+
+  footer .progress-bar{
+    width: 100px;
+  }
+}

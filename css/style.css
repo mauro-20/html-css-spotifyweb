@@ -35,6 +35,10 @@ main{
   margin-bottom: 25px;
 }
 
+.sidebar-logo-img-small{
+  display: none;
+}
+
 .sidebar li{
   list-style: none;
   height: 35px;
@@ -82,7 +86,7 @@ main{
   flex-grow: 1;
 }
 
-.sidebar-install-app{
+.sidebar-bottom-install-app{
   padding: 10px 0;
   border-bottom: 1px solid #6d6d6d;
   color: #6d6d6d;
@@ -90,17 +94,17 @@ main{
 
 }
 
-.sidebar-install-app img{
+.sidebar-bottom-install-app img{
   width: 18px;
   margin-right: 5px;
   vertical-align: middle;
 }
 
-.sidebar-profile{
+.sidebar-bottom-profile{
   padding: 10px 0;
 }
 
-.sidebar-profile-icon{
+.sidebar-bottom-profile-icon{
   display: inline-block;
   height: 25px;
   width: 25px;
@@ -131,6 +135,7 @@ main{
   width: calc(100% - 230px);
   position: fixed;
   top: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: right;
 }
