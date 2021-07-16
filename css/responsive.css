@@ -1,0 +1,21 @@
+@media screen and (max-width: 1100px) {
+  .card{
+    width: calc(100% / 4 - 15px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card{
+    width: calc(100% / 2 - 15px);
+  }
+
+  .footer-col-left-song{
+    margin-right: 20px;
+  }
+
+  .footer-col-left-icons > i{
+    display: block;
+    margin: 0;
+  }
+}
+
