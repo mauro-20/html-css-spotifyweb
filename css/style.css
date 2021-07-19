@@ -138,6 +138,7 @@ main{
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: right;
+  z-index: 1;
 }
 
 .main-content-upgrade-btn a{
@@ -358,7 +359,8 @@ footer .progress-bar div{
 .main-content-nav a:hover,
 .sidebar li:hover,
 .sidebar-create-playlist:hover,
-.sidebar-bottom-install-app:hover{
+.sidebar-bottom-install-app:hover,
+.footer-col-left-icons > *:hover{
   color: #ffffff;
   cursor: pointer;
 }
@@ -382,4 +384,32 @@ footer .progress-bar div{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.footer-col-left-song-title:hover{
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-col-center-buttons > *:hover,
+footer .progress-bar:hover{
+  cursor: pointer;
+}
+
+.footer-col-center-buttons .fa-play-circle:hover{
+  transform: scale(1.2);
+}
+
+footer .progress-bar:hover div{
+  border: 2px solid #adff2f;
+}
+
+footer .progress-bar:hover::after{
+  content: "";
+  position: absolute;
+  left: calc(20% - 6px);
+  top: -6px;
+  border: 6px solid #ffffff;
+  border-radius: 6px;
 }
