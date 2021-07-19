@@ -248,23 +248,6 @@ main{
   overflow: hidden;
 }
 
-.card:hover .card-img::after{
-  content: "\f144";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-  font-size: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
 /* footer */
 footer{
   display: flex;
@@ -366,3 +349,36 @@ footer .progress-bar div{
   margin-right: 15px;
 }
 
+/* hover */
+.main-content-upgrade-btn a:hover{
+  transform: scale(1.1);
+}
+
+.main-content-nav a:hover,
+.sidebar li:hover,
+.sidebar-create-playlist:hover,
+.sidebar-bottom-install-app:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidebar-create-playlist:hover .sidebar-create-playlist-btn{
+  background-color: #ffffff;
+}
+
+.card:hover .card-img::after{
+  content: "\f144";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
